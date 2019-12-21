@@ -1,4 +1,4 @@
-#include"../Project15/queue.h"
+#include"queue.h"
 
 #include "gtest.h"
 
@@ -109,4 +109,5 @@ TEST(TQueue, can_not_get_last_elem)
 {
 	TQueue<int> q(3);
 	ASSERT_ANY_THROW( q.Back());
+	system("pause");
 }
