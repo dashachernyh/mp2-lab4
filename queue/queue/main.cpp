@@ -1,4 +1,4 @@
-#include"queue.h"
+#include"queue-list.h"
 #include<conio.h>
 #include<iostream>
 using namespace std;
@@ -14,7 +14,7 @@ int main()
 	b = q.IsEmpty();
 	cout<<b<<endl;
 	q.Pop();
-	for (int i = 0; i < q.GetMaxSize(); i++)
+	for (int i = 0; i <10; i++)
 	{
 		cin >> el;
 		q.Push(el);
